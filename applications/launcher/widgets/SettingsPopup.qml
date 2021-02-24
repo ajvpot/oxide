@@ -45,7 +45,7 @@ Item {
                     id: sleepAfterSpinBox
                     objectName: "sleepAfterSpinBox"
                     from: 1
-                    to: 10
+                    to: 60
                     stepSize: 1
                     value: controller.sleepAfter
                     onValueChanged: controller.sleepAfter = this.value
